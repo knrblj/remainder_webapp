@@ -1,0 +1,153 @@
+body
+{
+	width: 100%;
+	height: auto;
+	background-color: #8b9ee0;
+	justify-content: center;
+}
+*
+{
+	box-sizing: border-box;
+}
+.head
+{
+	width: 520px;
+	padding: 12px;
+	border-radius: 5px;
+	background-color: #b3b3ff;
+	height: 140px;
+}
+.head img
+{
+	float: left;
+	width:110px;
+	height:110px;
+}
+.head h2
+{
+	margin: 7px 0px 0 20px;
+	padding: 20px 1px 0 20px;
+}
+.head h4
+{
+	margin: 0px 0px 0 20px;
+	padding: 0px 1px 0 20px;
+}
+.head-text
+{
+	width: 40%;
+	float:left;
+}
+.menu
+{
+	width: 520px;
+	height: 30px;
+	background-color:  #b3b3ff;
+	border-radius: 5px;
+	align-items: center;
+}
+.menu a
+{
+	float:right;
+	margin: 5px;
+}
+.menu p
+{
+	text-align: center;
+	margin-top: 2px;
+}
+.table
+{
+	width: 520px;
+	height:auto;
+	background-color: #b3b3ff;
+	margin-top: 3px;
+	border-radius: 5px;
+}
+table
+{
+	width: 520px;
+	height: auto;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+th
+{
+	height:40px;
+	text-align: center;
+}
+th:nth-child(even){background-color:#e6e6ff;}
+th:nth-child(odd){background-color:  #ccccff;}
+td:nth-child(even){background-color:#e6e6ff;}
+td:nth-child(odd){background-color:  #ccccff;}
+td
+{
+	height:auto;
+	text-align: center;
+}
+button
+{
+	float:left;
+	background:#555;
+	padding:10px 15px;
+	color:#fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border:none;
+	margin-top: 10px;
+}
+@media only screen and (min-width: 600px)
+{
+	.head, .menu, .table, table
+	{
+		width: 100%;
+	}
+	.topnav
+	{
+		width:1080px;
+	}
+}
+
+.mobile-container {
+  width: 520px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color:  #b3b3ff;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:  #b3b3ff;
+  position: relative;
+  margin-top: 2px;
+  border-radius: 5px;
+  width: 520px;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color:#555 ;
+  color: white;
+}

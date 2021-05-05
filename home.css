@@ -1,0 +1,46 @@
+h1{
+	text-align: center;
+	color: #2ecc71;
+}
+.box{
+	 width: 20px;
+    height: 20px;
+    padding: 105%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 50px;
+
+}
+h2{
+	text-align: center;
+}
+.button
+{
+    width: auto;
+    margin:20px;
+    text-align: center;
+}
+a
+{
+   background-color:  #98e698;
+   color: black;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 5px;
+}
+.b2,.b1
+{
+  margin-left: 20px; 
+  border-radius: 5px;
+}
+.b1
+{
+    border-radius: 5px;
+}
+a:hover
+{
+    background-color:  #eafaea;
+}
